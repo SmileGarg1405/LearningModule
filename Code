@@ -1,0 +1,748 @@
+#include<iostream>
+using namespace std;
+class test
+{
+	int c,e,d,count,wr,coun,w,c3,c4,c5,c6,c7,c8,c9,c10,w3,w4,w5,w6,w7,w8,w9,w10;
+	char ans,an,a3,a4,a5,a6,a7,a8,a9,a10;
+	public:
+	void mod();
+	void tet();
+};
+void test::mod ()
+{
+	cout<<"\n press 1 for module \n press 2 for test:";
+	cin>>c;
+	switch(c)
+	{
+		case 1:
+			cout<<"\n module";
+			cout<<"\n which topic:";
+			cout<<"\n press 1 for functions \n press 2 for class\n press 3 for inheritance \n press 4 for overloading \n press 5 for polymorphism \n press 6 for abstraction \n press 7 for encapsulation \n press 8 for constructor and destructor \n press 9 for file handling \n press 10 for random question";
+			cin>>d;
+			switch(d)
+			{
+				case 1:
+					cout<<"\n functions";
+					cout<<"\n 1. Which of the following function prototype is perfectly acceptable?\nA.\nint Function(int Tmp = Show());\nB.\nfloat Function(int Tmp = Show(int, float));\nC.\nBoth A and B.\nD.\nfloat = Show(int, float) Function(Tmp);\n\n\nAnswer: Option A\nExplanation:\nNo answer description available for this question. \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n 2. Which of the following statement is correct?\nA.\nC++ enables to define functions that take constants as an argument.\nB.\nWe cannot change the argument of the function that that are declared as constant.\nC.\nBoth A and B.\nD.\nWe cannot use the constant while defining the function.\n\n\nAnswer: Option C\nExplanation:\nNo answer description available for this question.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n 3.Which of the following statement is correct?\nA.\nOverloaded functions can have at most one default argument.\nB.\nAn overloaded function cannot have default argument.\nC.\nAll arguments of an overloaded function can be default.\nD.\nA function if overloaded more than once cannot have default argument.\nAnswer: Option C\nExplanation:\nNo answer description available for this question.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n 4. Which of the following statement is correct?\nA.\nTwo functions having same number of argument, order and type of argument can be \noverloaded if both functions do not have any default argument.\nB.\nOverloaded function must have default arguments.\nC.\nOverloaded function must have default arguments starting from the left of \nargument list.\nD.\nA function can be overloaded more than once.\nAnswer: Option D\nExplanation:\nNo answer description available for this question\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n 5.Which of the following statement will be correct if the function has three arguments passed to it?\nA.\nThe trailing argument will be the default argumen\nThe first argument will be the default argument.\nC.\nThe middle argument will be the default argument.\nD.\n All the argument will be the default argument.\nAnswer: Option A\nExplanation:\nNo answer description available for this question.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n 6. Which of the following statement is incorrect?\nA.\nDefault arguments can be provided for pointers to functions.\nB.\n\nA function can have all its arguments as default.\nC.\nDefault argument cannot be provided for pointers to functions.\nD.\nA default argument cannot be redefined in later declaration.\nAnswer: Option C\nExplanation:\nNo answer description available for this question. Let us discuss. \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n 7. Which of the following statement is correct?\nA.\nConstructors can have default parameters.\nB.\nConstructors cannot have default parameters.\nC.\nConstructors cannot have more than one default parameter.\nD.\nConstructors can have at most five default parameters.\nAnswer: Option A\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n \n8.\nWhich of the following function / type of function cannot be overloaded?\nA.\nMember function\nB.\nStatic function\nC.\nVirtual function\nD.\nBoth B and C\nAnswer: Option C\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n \n9. \nWhich of the following statement is correct?\nA.\nThe default value for an argument cannot be function call.\nB.\nC++ allows the redefinition of a default parameter.\nC.\nBoth A and B.\nD.\nC++ does not allow the redefinition of a default parameter.\nAnswer: Option D\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n \n10. \nWhich of the following statement is correct?\nA.\nOnly one parameter of a function can be a default parameter.\nB.\nMinimum one parameter of a function must be a default parameter.\nC.\nAll the parameters of a function can be default parameters.\nD.\nNo parameter of a function can be default.\nAnswer: Option C\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n \n11. \nWhich of the following statement is incorrect?\nA.\nA default argument is checked for type at the time of declaration and evaluated \nat the time of call\nB.\nWe can provide a default value to a particular argument in the middle of an\nargument list.\nC.\nWe cannot provide a default value to a particular argument in the middle of an \nargument list.\nD.\nDefault arguments are useful in situations where some arguments always have the \nsame value.\nAnswer: Option B\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n \n12. \nWhich of the following statement is correct?\nA.\nOverloaded functions can accept same number of arguments.\nB.\nOverloaded functions always return value of same data type.\nC \nOverloaded functions can accept only same number and same type of arguments.\nD.\nOverloaded functions can accept only different number and different type of \narguments.\nAnswer: Option A\nExplanation:\nNo answer description available for this question\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n \n13. \nWhich of the following function / types of function cannot have default\nparameters?\nA.\nMember function of class\nB.\nmain()\nC.\nMember function of structure\nD.\nBoth B and C\nAnswer: Option B\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n \n14. \nWhich of the following statement is correct?\nA.\nThe order of the default argument will be right to left.\nB.\nThe order of the default argument will be left to right.\nC.\nThe order of the default argument will be alternate.\nD.\nThe order of the default argument will be random.\nAnswer: Option A\nExplanation:\nNo answer description available for this question.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					break;
+				case 2:
+					cout<<"\n class";
+					cout<<"\n1. \nWhat happens when we try to compile the class definition in following code\nsnippet? \nclass Birds {};\nclass Peacock : protected Birds {};\n\nA\nIt will not compile because class body of Birds is not defined.\nB.\nIt will not compile because class body of Peacock is not defined.\nC.\nIt will not compile because a class cannot be protectedly inherited from other \nclass.\nD.\nIt will compile succesfully.\nAnswer: Option D\n\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ";
+					cout<<"\n2. \nWhich of the following statements is incorrect?\nA.\nFriend keyword can be used in the class to allow access to another class.\nB.\nFriend keyword can be used for a function in the public section of a class.\nC.\nFriend keyword can be used for a function in the private section of a class.\nD.\nFriend keyword can be used on main().\nAnswer: Option D\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ";
+					cout<<" \n3. \nWhich of the following statement is correct regarding destructor of base class?\nA.\nDestructor of base class should always be static.\nB.\nDestructor of base class should always be virtual.\nC.\nDestructor of base class should not be virtual.\nD.\nDestructor of base class should always be private.\nAnswer: Option B\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n4. \nWhich of the following two entities (reading from Left to Right) can be connected \nby the dot operator?\nA.\nA class member and a class object.\nB.\nA class object and a class.\nC.\nA class and a member of that class.\nD.\nA class object and a member of that class.\nAnswer: Option D\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ";
+					cout<<"\n5. \nHow can we make a class abstract?\nA.\nBy making all member functions constant.\nB.\nBy making at least one member function as pure virtual function.\nC.\nBy declaring it abstract using the static keyword.\nD.\nBy declaring it abstract using the virtual keyword.\nAnswer: Option B\nExplanation:\nNo answer description available for this question.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ";
+					cout<<"\n6. \nWhich of the following statements is correct when a class is inherited publicly?\nA.\nPublic members of the base class become protected members of derived class.\nB.\nPublic members of the base class become private members of derived class.\nC.\nPrivate members of the base class become protected members of derived class.\nD.\nPublic members of the base class become public members of derived class.\nAnswer: Option D\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ";
+					cout<<"\n7. \nWhich of the following statements is correct about the constructors and\ndestructors?\nA.\nDestructors can take arguments but constructors cannot.\nB.\nConstructors can take arguments but destructors cannot.\nC.\nDestructors can be overloaded but constructors cannot be overloaded.\nD.\nConstructors and destructors can both return a value.\nAnswer: Option B\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ";
+					cout<<" \n8. \nWhich of the following access specifies is used in a class definition by default?\nA.\nProtected\nB.\nPublic\nC.\nPrivate\nD.\nFriend\nAnswer: Option C\nExplanation:\nNo answer description available for this question. Let us discuss.\nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n9. \nWhich of the following statement is correct with respect to the use of friend \nkeyword inside a class?\nA.\nApprivate data member can be declared as a friend.\nB.\nA class may be declared as a friend.\nC.\nAn object may be declared as a friend.\nD.\nWe can use friend keyword as a class name.\nAnswer: Option B\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n10. \nWhich of the following keywords is used to control access to a class member?\nA.\nDefault\nB.\nBreak\nC.\nProtected\nD.\nAsm\nAnswer: Option C\nExplanation:\nNo answer description available for this question.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n\n11. \nWhich of the following can access private data members or member functions of a \nclass?\nA.\nAny function in the program.\nB.\nAll global functions in the program.\nC.\nAny member function of that class.\nD.\nOnly public member functions of that class.\nAnswer: Option C\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n12. \nWhich of the following type of data member can be shared by all instances of its \nclass?\nA.\nPublic\nB.\nInherited\nC.\nStatic\nD.\nFriend\n\nAnswer: Option C\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n13. \nWhich of the following also known as an instance of a class?\nA.\nFriend Functions\nB.\nObject\nC.\nMember Functions\n\nD.\nMember Variables\nAnswer: Option B\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n14. \nConstructor is executed when _____.\nA.\nan object is created\nB.\nan object is used\nC.\na class is declared\nD.\nan object goes out of scope.\nAnswer: Option A\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n15. \nWhich of the following statements about virtual base classes is correct?\nA.\nIt is used to provide multiple inheritance.\nB.\nIt is used to avoid multiple copies of base class in derived class.\nC.\nIt is used to allow multiple copies of base class in a derived class.\nD.\nIt allows private members of the base class to be inherited in the derived class.\nAnswer: Option B\nExplanation:\nNo answer description available for this question\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n16. \nHow many objects can be created from an abstract class?\nA.\nZero\nB.\nOne\nC.\nTwo\nD.\nAs many as we want\nAnswer: Option A\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n17. \nWhat does the class definitions in following code represent? \nclass Bike\n{\n    Engine objEng;\n};\nclass Engine\n{\n    float CC;\n};\n\nA.\nkind of relationship\nB.\nhas a relationship\nC.\nInheritance\nD.\nBoth A and B\nAnswer: Option B\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n18. \nWhich of the following statements is correct when a class is inherited privately?\nA.\nPublic members of the base class become protected members of derived class.\nB.\nPublic members of the base class become private members of derived class.\nC.\nPrivate members of the base class become private members of derived class.\nD.\nPublic members of the base class become public members of derived class.\nAnswer: Option B\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n19. \nWhich of the following statements is correct?\nA.\nData items in a class must be private.\n\nB.\nBoth data and functions can be either private or public\nC.\nMember functions of a class must be private.\nD.\nConstructor of a class cannot be private.\nAnswer: Option B\nExplanation:\nNo answer description available for this question. Let us discuss. \nView Answer Discuss in Forum C++ Compiler Report \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<" \n20. \nWhat does a class hierarchy depict?\nA.\nIt shows the relationships between the classes in the form of an organization \nchart.\nB.\nIt describes 'has a'relationships.\nC.\nIt describes 'kind of' relationships.\nD.\nIt shows the same relationship as a family tree.\nAnswer: Option C\nExplanation:\nNo answer description available for this question. \n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					break;
+				case 3:
+			cout<<"\n1)   Can we pass parameters to base class constructor though derived class or derived class constructor? \n a. \nYes\nb.\n No\n ANSWER: Yes\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""\n 2)   Private members of the class are not inheritable. \n a. \n True\n b.\n False\nANSWER: False\nExplanation: No explanation is available for this question!\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n3)   In case of inheritance where both base and derived class are having constructors, when an object of derived class is created then___________ . \n a. \nconstructor of derived class will be invoked first\nb.\n constructor of base class will be invoked first\nc.\n constructor of derived class will be executed first followed by base class\nd.\n constructor of base class will be executed first followed by derived class \nANSWER: constructor of base class will be executed first followed by derived class\nExplanation: \nNo explanation is available for this question!\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""\n 4)   Can struct be used as Base class for inheritance ? \na.\n Yes\nb.\n No\n ANSWER: Yes\n Explanation: No explanation is available for this question!\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n 5)   If the derived class is struct, then default visibility mode is _______ . \n a.\n  public\n b.\n protected\n c. \n private\n d. \n struct can’t inherit class \n ANSWER: public\n Explanation: No explanation is available for this question!\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n 6)   If base class has constructor with arguments, then it is ________________ for the derived class to have constructor and pass the arguments to base class constructor. \n a.\n  Optional\n b.\n Mandatory\n c.\n Compiler dependent\n d.\n Error \nANSWER: Mandatory\nExplanation: No explanation is available for this question!\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n 7) \n  In Multipath inheritance, in order to remove duplicate set of records in child class, we ___________ . \na.\n Write Virtual function in parent classes\nb.\n Write virtual functions is base class\nc.\n Make base class as virtual base class\nd.\n All of these \nANSWER: Make base class as virtual base class\nExplanation: No explanation is available for this question!\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n8)   In case of inheritance where both base and derived class are having constructor and destructor, then which if the following are true ?\n1. Constructors are executed in their order of derivation\n2. Constructors are executed in reverse order of derivation\n3. Destructors are executed in their order of derivation\n4. Destructors are executed in reverse order of derivation \na. Only 2 ,4\nb. Only 1 , 3\nc. Only 1 , 4\nd. Only 2, 3\n ANSWER: Only 1 , 4\n Explanation: No explanation is available for this question!\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n 9)   When a child class inherits traits from more than one parent class, this type of inheritance is called _______________ inheritance.\n a.\n Hierarchical\nb.\n Hybrid\nc.\n Multilevel\nd.\n Multiple\nANSWER: Multiple\nExplanation: No explanation is available for this question!\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n10)   What is the difference between protected and private access specifiers in inheritance? \na.\n private member is not inheritable and not accessible in derived class.\nb.\n protected member is inheritable and also accessible in derived class.\nc.\n Both are inheritable but private is accessible in the derived class.\nd.\n Both are inheritable but protected is not accessible in the derived class.\n ANSWER: protected member is inheritable and also accessible in derived class.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					break;
+				case 4:
+					cout<<"\n 1) We can overload which of the following C++ operators.\nA) Arithmetic operator (+, -, *, /)\nB) Class Member Access Operators (., .*)\n C) Size operator(sizeof)\n D) Conditional operator(?:)\nanswer: A) Arithmetic operator (+, -, *, /)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n2) ……………… must be either non-static member function or friend functions.\nA) member functions\nB) Operator functions\nC) non-static functions\nD) friend functions\nanswer: B) Operator functions\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n3) Operator overloading is also called …………….. polymorphism.\nA) run time\nB) initial time\nC) compile time\nD) completion time\nanswer:C) compile time\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n4) We can overload almost all the C++ operators except the following.\ni) Class member operator (.,.*)   \nii) Assignment operator (=)\niii) Scope resolution operator (::) \niv) Conditional operator (?:)\nA) i, ii and iii only\nB) ii, iii and iv only\nC) i, iii and iv only\nD) All i, ii, iii and iv\nanswer:C) i, iii and iv only\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n5) Which of the following is the correct order involves in the process of operator overloading.\ni) Define the operator function to implement the required operations. \nii) Create a class that defines the data type that is to be used in the overloading operation.\niii) Declare the operator function op() in the public part of the class. \nA) 1-i, 2-ii, 3-iii\nB) 1-ii, 2-iii, 3-i\nC) 1-ii, 2-i, 2-iii\nD) 1-iii, 2-ii, 3-i\nanswer:B) 1-ii, 2-iii, 3-i\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n6) State whether the following statements are True or False for overloading operators. \ni) Only existing operators can be overloaded. \nii) We can change the basic meaning of an operator\nA) True, True\nB) True, False\nC) False, True\nD) False, False\nanswer:B) True, False\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n7) We cannot use friend functions to overload which of the following operators.\ni) membership operator(.)    ii) Assignment operator(=)\niii) class member access operator(_>)  iv) conditional operator(?:)\nA) i and ii only\nB) ii and iii only\nC) iii and iv only\nD) i and iv only\nanswer:B) ii and iii only\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n8) …………… overloaded by means of a member function, take no explicit arguments and \nreturn no explicit values. \nA) Unary operators\nB) Binary operators\nC) Arithmetic operators\nD) Function operator\nanswer:A) Unary operators\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n9) ……………. overloaded through a member function take one explicit argument and those which are overloaded through a friend function take two explicit arguments. \nA) Unary operators\nB) Binary operators\nC) Arithmetic operators\nD) Function operator\nanswer:B) Binary operators\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n10) When using ………………., overloaded through a member function, the left hand operand must be an object of the relevant class.\nA) Unary operators\nB) Binary operators\nC) Arithmetic operators\nD) Function operator\nanswer:B) Binary operators\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" ;
+					break;
+				case 5:
+					cout<<"\n1)   A virtual function that has no definition within the base class is called____________. \na. Pure virtual function\nb. Pure static function\nc. Pure Const function\nd. Friend function\nAnswer  Explanation \nANSWER: Pure virtual function\n\nExplanation: \nNo explanation is available for this question!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n\n2)   If abstract class is inherited by derived class, then_______________ . \n\n\na. Derived class should provide definition for all the pure virtual functions\nb. Derived class also become abstract if fails to implement pure virtual \nfunctions\nc. Objects of derived class can’t be created if it fails to implement pure \nvirtual functions\nd. All of these\nAnswer  Explanation \n\nANSWER: All of these\n\nExplanation: \nNo explanation is available for this question!\n\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n3)    If a class contains pure virtual function, then it is termed \nas____________________ . \n\n\na. Virtual class\nb. Sealed class\nc. Pure Local class\nd. Abstract Class\nAnswer  Explanation \nANSWER: Abstract Class\n\nExplanation: \nNo explanation is available for this question!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n4)   When a virtual function is redefined by the derived class, it is \ncalled___________. \n\n\na. Overloading\nb. Overriding\nc. Rewriting\nd. All of these\nAnswer  Explanation \nANSWER: Overriding\n\nExplanation: \nNo explanation is available for this question!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n5)   Which of the followings are true about Virtual functions? \n\n\na. They must be non-static member function of the class\nb. They cannot be friends\nc. Constructor Functions cannot be virtual\nd. All of these\nAnswer  Explanation \nANSWER: All of these\n\nExplanation: \nNo explanation is available for this question!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";					cout<<"\n6)   We can create objects of the abstract class. \n\n\na. True\nb. False\nAnswer  Explanation \nANSWER: False\n\nExplanation: \n\nNo explanation is available for this question!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n7)   Find the wrong statement/s about Abstract Class. \n\n\na. We can’t create its objects.\nb. We can’t create pointers to an abstract class.\nc. It contains at least one pure virtual function.\nd. We can create references to an abstract class.\nAnswer  Explanation \nANSWER: We can’t create pointers to an abstract class.\n\nExplanation: \nNo explanation is available for this question!\n\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n8)   Runtime polymorphism is achieved only when a virtual function is accessed \nthrough a pointer to the base class. \n\n\na. True\nb. False\nAnswer  Explanation \nANSWER: True\n\nExplanation: \nNo explanation is available for this question!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n9)   Syntax for Pure Virtual Function is ______________ . \n\n\na. virtual void show()==0\nb. void virtual show()==0\nc. virtual void show()=0\nd. void virtual show()=0\nAnswer  Explanation \nANSWER: virtual void show()=0\n\nExplanation: \nNo explanation is available for this question!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n10)    _______________ is a member function that is declared within a base class \nand redefined by derived class. \n\na. virtual function\nb. static function\nc. friend function\nd. const member function\nAnswer  Explanation \nANSWER: virtual function\n\nExplanation: \nNo explanation is available for this question!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					break;
+				case 6:
+					cout<<"\n1. Which class is used to design the base class?\na) abstract class\nb) derived class\nc) base class\nd) none of the mentioned\nView Answer\nAnswer: a\nExplanation: None.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n2. Which is used to create a pure virtual function ?\na) $\nb) =0\nc) &\nd) !\nView Answer\nAnswer: b\nExplanation: For making a method as pure virtual function, We have to append ‘=0’ \nto the class or method.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n3. Which is also called as abstract class?\na) virtual function\nb) pure virtual function\nc) derived class\nd) none of the mentioned\nView Answer\nAnswer: b\nExplanation: Classes that contain at least one pure virtual function are called as abstract base classes.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n4. What is the output of this program?\n#include <iostream>\n    using namespace std;\n    class p \n    {\n        protected:\n        int width, height;\n        public:\n        void set_values (int a, int b)\n        {\n            width = a; height = b; \n        }\n        virtual int area (void) = 0;\n    };\n     class r: public p\n    {\n        public:\n        int area (void)\n        { \n            return (width * height);\n        }\n    };\n    class t: public p \n    {\n        public:\n        int area (void)\n        {\n            return (width * height / 2); \n        }\n    };\n    int main () \n    {\n        r rect;\n        t trgl;\n        p * ppoly1 = &rect;\n        p * ppoly2 = &trgl;\n        ppoly1->set_values (4, 5);\n        ppoly2->set_values (4, 5);\n        cout << ppoly1 -> area() ;\n        cout << ppoly2 -> area();\n        return 0;\n    }\na) 1020\nb) 20\nc) 10\nd) 2010\nView Answer\n\nAnswer: d\nExplanation: In this program, We are calculating the area of rectangle and\ntriangle by using abstract class.\nOutput:\n$ g++ abs.cpp\n$ a.out\n2010\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n5. What is the output of this program?\n\n\n    #include <iostream>\n    using namespace std;\n    class MyInterface \n    {\n        public:\n        virtual void Display() = 0;\n    };\n    class Class1 : public MyInterface \n    {\n        public:\n        void Display() \n        {\n            int  a = 5;\n           cout << a;\n       }\n    };\n    class Class2 : public MyInterface \n    {\n        public:\n        void Display()\n      {\n            cout <<" "5"" << endl;\n        }\n    };\n    int main()\n    {\n        Class1 obj1;\n        obj1.Display();\n        Class2 obj2;\n        obj2.Display();\n        return 0;\n    }\na) 5\nb) 10\nc) 5 5\nd) None of the mentioned\nView Answer\n\nAnswer: c\nExplanation: In this program, We are displaying the data from the two classes\nby using abstract class.\nOutput:\n$ g++ abs1.cpp\n$ a.out\n5 5\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n6. What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n    class sample\n    {\n        public:\n        virtual void example() = 0; \n    };\n    class Ex1:public sample\n    {\n        public:\n        void example()\n        {\n            cout << ""ubuntu"";\n        }\n    };\n  class Ex2:public sample\n   {\n        public:\n        void example()\n        {\n            cout << "" is awesome"";\n        }\n    };\n    int main()\n    {\n        sample* arra[2];\n        Ex1 e1;\n        Ex2 e2;\n        arra[0]=&e1;\n        arra[1]=&e2;\n        arra[0]->example();\n        arra[1]->example();\n    }\na) ubuntu\nb) is awesome\nc) ubuntu is awesome\nd) none of the mentioned\nView Answer\n\nAnswer: c\nExplanation: In this program, We are combining the two statements from two \nclasses and printing it by using abstract class.\nOutput:\n$ g++ abs3.cpp\n$ a.out\nubuntu is awesome\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n7. What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n    class Base\n    {\n        public:\n      virtual void print() const = 0;\n    };\n    class DerivedOne : virtual public Base\n    {\n        public:\n        void print() const\n        {\n            cout << ""1"";\n        }\n    };\n    class DerivedTwo : virtual public Base\n    {\n        public:\n        void print() const\n        {\n            cout << ""2"";\n        }\n    };\n    class Multiple : public DerivedOne, DerivedTwo\n    {\n        public:\n        void print() const\n        {\n\n            DerivedTwo::print();\n        }\n    };\n    int main()\n    {\n        Multiple both;\n        DerivedOne one;\n        DerivedTwo two;\n        Base *array[ 3 ];\n        array[ 0 ] = &both;\n        array[ 1 ] = &one;\n        array[ 2 ] = &two;\n        for ( int i = 0; i < 3; i++ )\n        array[ i ] -> print();\n        return 0;\n    }\na) 121\nb) 212\nc) 12\nd) none of the mentioned\nView Answer\n\nAnswer: b\nExplanation: In this program, We are executing these based on the condition given \nin array. So it is printing as 212.\nOutput:\n$ g++ abs4.cpp\n$ a.out\n212\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n8. What is meant by pure virtual function?\na) Function which does not have definition of its own\nb) Function which does have definition of its own\nc) Function which does not have any return type\nd) None of the mentioned\nView Answer\n\nAnswer: a\nExplanation: As the name itself implies, it have to depend on other class only.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n9. Pick out the correct option.\na) We cannot make an instance of an abstract base class\nb) We can make an instance of an abstract base classc) We can make an instance of an abstract super class\nd) None of the mentioned\nView Answer\nAnswer: a\nExplanation: None.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";		
+					cout<<"\n10. Where does the abstract class is used?\na) base class only\nb) derived class\nc) both derived & base class\nd) none of the mentioned\nView Answer\n\nAnswer: a\nExplanation: None.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					break;
+				case 7:
+					cout<<"\n1.	Which among the following best describes encapsulation?\na)	It is a way of combining various data members into a single unit\nb)	It is a way of combining various member functions into a single unit\nc)	It is a way of combining various data members and member functions into a \nsingle unit which can operate on any data\nd)	It is a way of combining various data members and member functions that \noperate on those data members into a single unit\nView Answer\nAnswer: d\nExplanation: It is a way of combining both data members and member functions, \nwhich operate on those data members, into a single unit. We call it a class in \nOOP generally. This feature have helped us modify the structures used in C \nlanguage to be upgraded into class in C++ and other languages.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n2.	If data members are private, what can we do to access them from the class \nobject?\na)	Create public member functions to access those data members\nb)	Create private member functions to access those data members\nc)	Create protected member functions to access those data members\nd)	Private data members can never be accessed from outside the class\nView Answer\n\nAnswer: a\nExplanation: We can define public member functions to access those private data \nmembers and get their value for use or alteration. They can’t be accessed \ndirectly but is possible to be access using member functions. This is done to \nensure that the private data doesn’t get modified accidently.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n3.	While using encapsulation, which among the following is possible?\na)	Code modification can be additional overhead\nb)	Data member’s data type can be changed without changing any other code\nc)	Data member’s type can’t be changed, or whole code have to be changed\nd)	Member functions can be used to change the data type of data members\nView Answer\nAnswer: b\nExplanation: Data member’s data type can be changed without changing any further \ncode. All the members using that data can continue in the same way without any \n\nmodification. Member functions can never change the data type of same class \ndata members.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n4.	Which feature can be implemented using encapsulation?\na)	Inheritance\nb)	Abstraction\nc)	Polymorphism\nd)	Overloading\nView Answer\n\nAnswer: b\nExplanation: Data abstraction can be achieved by using encapsulation. We can \nhide the operation and structure of actual program from the user and can show \nonly required information by the user.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n5.	Find which of the following uses encapsulation?\na)	void main(){ int a; void fun( int a=10; cout<<a); fun(); }\nb)	class student{ int a; public: int b;};\nc)	class student{int a; public: void disp(){ cout<<a;} };\nd)	struct topper{ char name[10]; public : int marks; }\nView Answer\n\nAnswer: c\nExplanation: It is the class which uses both the data members and member \nfunctions being declared inside a single unit. Only data members can be there in \nstructures also. And the encapsulation can only be illustrated if some \ndata/operations are associated within class.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n6.	Encapsulation helps in writing ___________ classes in java\na)	Mutable\nb)	Abstract\nc)	Wrapper\nd)	Immutable\nView Answer\n\nAnswer: d\nExplanation: Immutable classes are used for caching purpose generally. And it \ncan be created by making the class as final and making all its members private.\nn~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n7.	Which among the following should be encapsulated?\na)	The data which is prone to change is near future\nb)	The data prone to change in long terms\nc)	The data which is intended to be changed\nd)	The data which belongs to some other class\nView Answer\n\nAnswer: a\nExplanation: The data prone to change in near future is usually encapsulated so \nthat it doesn’t get changed accidently. We encapsulate the data to hide the \ncritical working of program from outside world.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";			
+					cout<<"\n8.	How can Encapsulation be achieved?\na)	Using Access Specifiers\nb)	Using only private members\nc)	Using inheritance\nd)	Using Abstraction\nView Answer\n\nAnswer: a\nExplanation: Using access specifiers we can achieve encapsulation. Using this we \ncan in turn implement data abstraction. It’s not necessary that we only use \nprivate access.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n9.	Which among the following violates the principle of encapsulation almost \nalways?\na)	Local variables\nb)	Global variables\nc)	Public variables\nd)	Array variables\nView Answer\n\nAnswer: b\nExplanation: Global variables almost always violates the principles of \nencapsulation. Encapsulation says the data should be accessed only by required \nset of elements. But global variable is accessible everywhere, also it is most \nprone to changes. It doesn’t hide the internal working of program.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n10.	Which among the following would destroy the encapsulation mechanism if it \nwas allowed in programming?\na)	Using access declaration for private members of base class\nb)	Using access declaration for public members of base class\nc)	Using access declaration for local variable of main() function\nd)	Using access declaration for global variables\nView Answer\n\nAnswer: a\nExplanation: If using access declaration for private members of base class was \nallowed in programming, it would have destroyed whole concept of encapsulation. \nAs if it was possible, any class which gets inherited privately, would have been \nable to inherit the private members of base class, and hence could access each \nand every member of base class.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					break;
+				case 8:
+					cout<<"\n1. C++ provides a special ………………… called the constructor, which enables an \nobject to initialize itself when it is created.\nA) friend function\nB) member function\nC) public function\nD) private functionanswer:-b\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n2.  A constructor has the same …………….. as that of class.\nA) variable\nB) object\nC) function\nD) nameanswer:-d\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n3. Constructors are normally used to …………….. and to allocate memory.\nA) define variables\nB) allocate variables\nC) initialize variables\nD) initialize objectanswer:-c\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n4. A constructor  that accepts no parameters is called the …………….\nA) default constructor\nB) parameterized constructor\nC) implicit constructor\nD) null constructoranswer:-a\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n5. Constructors cannot be inherited, through a derived class can call the \n………………. constructor.\nA) base class\nB) derived class\nC) void class\n\nD) default classanswer:-a\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n6. State whether the following statements about  the constructor are True or \nFalse.\ni) constructors should be declared in the private section.\nii) constructors are invoked automatically when the objects are created.\nA) True, True\nB) True, False\nC) False, True\nD) False, Falseanswer:-c\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n7. The constructors that can take arguments are called …………… constructors.\n\nA) default constructor\nB) parameterized constructor\nC) implicit constructor\nD) argument constructoranswer:-b\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n8. When an object is created and initialized at the same time, a ………………. gets \ncalled.\nA) default constructor\nB) parameterized constructor\nC) implicit constructor\nD) copy constructoranswer:-d\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n9. In C++, ……………………. creates objects, even through it was not defined in the \nclass.\nA) default constructor\nB) parameterized constructor\nC) implicit constructor\nD) copy constructoranswer:-c\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n10. …………….. constructor will not do anything and defined just to satisfy the \ncompiler\nA) default \nB) parameterized \nC) implicit \nD) copyanswer:-c\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					break;
+				case 9:
+					cout<<"\n1. Which stream class is to only write on files ?\nofstream\nifstream\nfstream\niostream\n Answer And Explanation\nAnswer: Option A\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"2. Which stream class is to only read from files \nofstream\nifstream\nfstream\niostream\n Answer And Explanation\nAnswer: Option B\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n3. Which stream class is used to both read and write on files ?\nofstream\nifstream\nfstream\niostream\n Answer And Explanation\nAnswer: Option C\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n4. Which among following is used to open a file in binary mode ?\nios:app\nios::out\nios::in\nios::binary\n Answer And Explanation\nAnswer: Option D\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n5. ios::trunc is used for ?\nIf the file is opened for output operations and it already existed, no action is \ntaken.\nIf the file is opened for output operations and it already existed, its previous \ncontent is deleted and replaced by the new one.\nIf the file is opened for output operations and it already existed, then a new \ncopy is created.\nNone of above\n Answer And Explanation\nAnswer: Option B\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n6. Which is correct syntax ?\nmyfile:open (""example.bin"", ios::out);\nmyfile.open (""example.bin"", ios::out);\nmyfile::open (""example.bin"", ios::out);\nmyfile.open (""example.bin"", ios:out);\n Answer And Explanation\nAnswer: Option B\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n7. Which among following is correct syntax of closing a file in c++ ?\nmyfile$close();\nmyfile@close();\nmyfile:close();\nmyfile.close();\n Answer And Explanation\nAnswer: Option D\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n8. What is use of eof() ?\nReturns true if a file open for reading has reached the next character.\nReturns true if a file open for reading has reached the next word.\nReturns true if a file open for reading has reached the end.\nReturns true if a file open for reading has reached the middle.\n Answer And Explanation\nAnswer: Option C\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n9. Which functions allow to change the location of the get and put positions ?\nsg() and sp()\nsekg() and sekp()\ngog() and gop()\nseekg() and seekp()\n Answer And Explanation\nAnswer: Option D\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n10. offset counted from the current position using ?\nios::curr\nios::cr\nios::cur\nios::current\n Answer And Explanation\nAnswer: Option C\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					break;
+				case 10:
+					cout<<"\n\n1. 	\nWhich of the following type of class allows only one object of it to be created?\n\nA.	Virtual class\nB.	Abstract class\nC.	Singleton class\nD.	Friend class\nAnswer: Option C\n\nExplanation:\n\nNo answer description available for this question. Let us discuss.\nView Answer Discuss in Forum C++ Compiler Report\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n2. 	\nWhich of the following is not a type of constructor?\n\nA.	Copy constructor\nB.	Friend constructor\nC.	Default constructor\nD.	Parameterized constructor\nAnswer: Option B\n\nExplanation:\n\nNo answer description available for this question. Let us discuss.\nView Answer Discuss in Forum C++ Compiler Report\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n3. 	\nWhich of the following statements is correct?\n\nA.	Base class pointer cannot point to derived class.\nB.	Derived class pointer cannot point to base class.\nC.	Pointer to derived class cannot be created.\nD.	Pointer to base class cannot be created.\nAnswer: Option B\n\nExplanation:\n\nNo answer description available for this question. Let us discuss.\nView Answer Discuss in Forum C++ Compiler Report\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n4. 	\nWhich of the following is not the member of class?\n\nA.	Static function\nB.	Friend function\nC.	Const function\nD.	Virtual function\nAnswer: Option B\n\nExplanation:\n\nNo answer description available for this question. Let us discuss.\nView Answer Discuss in Forum C++ Compiler Report.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n5. 	\nWhich of the following concepts means determining at runtime what method to \ninvoke?\n\nA.	Data hiding\nB.	Dynamic Typing\nC.	Dynamic binding\nD.	Dynamic loading\nAnswer: Option C\n\nExplanation:\n\nNo answer description available for this question\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n6. 	\nWhich of the following term is used for a function defined inside a class?\n\nA.	Member Variable\nB.	Member function\nC.	Class function\nD.	Classic function\nAnswer: Option B\n\nExplanation:\n\nNo answer description available for this question. Let us discuss.\nView Answer Discuss in Forum C++ Compiler Report\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n7. 	\nWhich of the following concept of oops allows compiler to insert arguments in a \nfunction call if it is not specified?\n\nA.	Call by value\nB.	Call by reference\nC.	Default arguments\nD.	Call by pointer\nAnswer: Option C\n\nExplanation:\n\nNo answer description available for this question. Let us discuss.\nView Answer Discuss in Forum C++ Compiler Report\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n8. 	\nHow many instances of an abstract class can be created?\nA.	1\nB.	5\nC.	13\nD.	0\nAnswer: Option D\n\nExplanation:\n\nNo answer description available for this question. Let us discuss.\nView Answer Discuss in Forum C++ Compiler Report.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n9. 	\nWhich of the following cannot be friend?\n\nA.	Function\nB.	Class\nC.	Object\nD.	Operator function\nAnswer: Option C\n\nExplanation:\n\nNo answer description available for this question. Let us discuss.\nView Answer Discuss in Forum C++ Compiler Report.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+					cout<<"\n10. 	\nWhich of the following concepts of OOPS means exposing only necessary \ninformation to client?\n\nA.	Encapsulation\nB.	Abstraction\nC.	Data hiding\nD.	Data binding\nAnswer: Option C\n\nExplanation:\n\nNo answer description available for this question\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+				default:
+					cout<<"\n no such choice";
+					break;
+			}
+			break;
+		case 2:
+			cout<<"\n test";
+			tet();
+			break;
+			default:
+			cout<<"\n sorry there is no such choice available";
+			break;
+	}
+}
+void test::tet()
+{
+	count=0;
+	cout<<"\n which topic:";
+	cout<<"\n press 1 for functions \n press 2 for class:\n press 3 for inheritance \n press 4 for overloading \n press 5 for polymorphism \n press 6 for abstraction \n press 7 for constructor and destructor \n press 8 for file handling \n press 9 for encapsulation \n press 10 for random question";
+	cin>>e;
+	switch(e)
+	{
+		case 1:
+			count=0;
+			cout<<"\n functions";
+			cout<<"1. Which of the following function prototype isaperfectly acceptable?\nA.\nint Function(int Tmp = Show());\nB.\nfloat Function(int Tmp = Show(int, float));\nC.\nBoth A and B.\nD.\nfloat = Show(int, float) Function(Tmp);";
+			cout<<"\n your answer:\n ";
+			cin>>ans;
+			if(ans=='A'||ans=='a')
+			count++;
+			cout<<"\n 2. Which of the following statement is correctc?\nA.\nC++ enables to define functions that take constants as an argument.\nB.\nWe cannot change the argument of the function that that are declared as constant.\nC.\nBoth A and B.\nD.\nWe cannot use the constant while defining the function.";
+			cout<<"\n your answer:";
+			cin>>ans;
+			if(ans=='C'||ans=='c')
+			count++;
+			cout<<"\n 3.Which of the following statement is correctc?\nA.\nOverloaded functions can have at most one default argument.\nB.\nAn overloaded function cannot have default argument.\nC.\nAll arguments of an overloaded function can be default.\nD.\nA function if overloaded more than once cannot have default argument.";
+			cout<<"\n your answer:";
+			cin>>ans;
+			if(ans=='c'||ans=='C')
+			count++;
+			cout<<"\n 4. dWhich of the following statement is correct?\nA.\nTwo functions having same number of argument, order and type of argument can be \noverloaded if both functions do not have any default argument.\nB.\nOverloaded function must have default arguments.\nC.\nOverloaded function must have default arguments starting from the left of \nargument list.\nD.\nA function can be overloaded more than once.";
+			cout<<"\n your answer:";
+			cin>>ans;
+			if(ans=='d'||ans=='D')
+			count++;
+			cout<<"\n 5.Which of the following statement will be correct if the function has three arguments passed to it?\nA.\nThe trailing argument will be the default argumen\nThe first argument will be the default argument.\nC.\nThe middle argument will be the default argument.\nD.\n All the argument will be the default argument.";
+			cout<<"\n your answera:";
+			cin>>ans;
+			if(ans=='a'||ans=='A')
+			count++;
+			cout<<"\n 6. \nWhich of the follbowing statement is incorrect?\nA.\nA default argument is checked for type at the time of declaration and evaluated \nat the time of call\nB.\nWe can provide a default value to a particular argument in the middle of an\nargument list.\nC.\nWe cannot provide a default value to a particular argument in the middle of an \nargument list.\nD.\nDefault arguments are useful in situations where some arguments always have the \nsame value.";
+			cout<<"\n your answer:";
+			cin>>ans;
+			if(ans=='b'||ans=='B')
+			count++;
+			cout<<"\n 7.\nWhich of the following funcbtion / types of function cannot have default\nparameters?\nA.\nMember function of class\nB.\nmain()\nC.\nMember function of structure\nD.\nBoth B and C";
+			cout<<"\n your answer:";
+			cin>>ans;
+			if(ans=='b'||ans=='B')
+			count++;
+			cout<<"\n 8.\nWherce the default value of parameter have to be specified?\nA.\nFunction call\nB.\nFunction definition\nC.\nFunction prototype\nD.\nBoth B or C";
+			cout<<"\n your answer:";
+			cin>>ans;
+			if(ans=='c'||ans=='C')
+			count++;
+			cout<<"\n 9.\nWhere the default value of parcameter have to be specified?\nA.\nFunction call\nB.\nFunction definition\nC.\nFunction prototype\nD.\nBoth B or C";
+			cout<<"\n your answer:";
+			cin>>ans;
+			if(ans=='c'||ans=='C')
+			count++;
+			cout<<"\n 10.\nWhcich of the following statement is correct?\nA.\nOnly one parameter of a function can be a default parameter.\nB.\nMinimum one parameter of a function must be a default parameter.\nC.\nAll the parameters of a function can be default parameters.\nD.\nNo parameter of a function can be default.";
+			cout<<"\n your answer:";
+			cin>>ans;
+			if(ans=='c'||ans=='C')
+			count++;
+			cout<<"\n total ryt answer="<<count;
+			wr=10-count;
+			cout<<"\n wron answer="<<wr;			
+			break;
+		case 2:
+			coun=0;
+			cout<<"\n class";
+			cout<<"\n 1. \nWhat hapdpens when we try to compile the class definition in following code\nsnippet? \nclass Birds {};\nclass Peacock : protected Birds {};\n\nA\nIt will not compile because class body of Birds is not defined.\nB.\nIt will not compile because class body of Peacock is not defined.\nC.\nIt will not compile because a class cannot be protectedly inherited from other \nclass.\nD.\nIt will compile succesfully.";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='d'||an=='D')
+			coun++;
+			cout<<"\n 2.  \nWhich of the follbowing statement is correct regarding destructor of base class?\nA.\nDestructor of base class should always be static.\nB.\nDestructor of base class should always be virtual.\nC.\nDestructor of base class should not be virtual.\nD.\nDestructor of base class should always be private. ";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='b'||an=='B')
+			coun++;
+			cout<<"\n 3. \nHow can we make a class abstrbact?\nA.\nBy making all member functions constant.\nB.\nBy making at least one member function as pure virtual function.\nC.\nBy declaring it abstract using the static keyword.\nD.\nBy declaring it abstract using the virtual keyword.";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='b'||an=='B')
+			coun++;
+			cout<<"\n 4.\nWhich of the following statements is cobrrect about the constructors and\ndestructors?\nA.\nDestructors can take arguments but constructors cannot.\nB.\nConstructors can take arguments but destructors cannot.\nC.\nDestructors can be overloaded but constructors cannot be overloaded.\nD.\nConstructors and destructors can both return a value.";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='b'||an=='B')
+			coun++;
+			cout<<"\n 5.\nWhich of the following statement is correct with respbect to the use of friend \nkeyword inside a class?\nA.\nApprivate data member can be declared as a friend.\nB.\nA class may be declared as a friend.\nC.\nAn object may be declared as a friend.\nD.\nWe can use friend keyword as a class name.";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='b'||an=='B')
+			coun++;
+			cout<<"\n 6.\nWhich of the followicng can access private data members or member functions of a \nclass?\nA.\nAny function in the program.\nB.\nAll global functions in the program.\nC.\nAny member function of that class.\nD.\nOnly public member functions of that class.";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='c'||an=='C')
+			coun++;
+			cout<<"\n 7.\nWhich of the following also knobwn as an instance of a class?\nA.\nFriend Functions\nB.\nObject\nC.\nMember Functions\n\nD.\nMember Variables";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='b'||an=='B')
+			coun++;
+			cout<<"\n 8.\nWhich of the following stbatements about virtual base classes is correct?\nA.\nIt is used to provide multiple inheritance.\nB.\nIt is used to avoid multiple copies of base class in derived class.\nC.\nIt is used to allow multiple copies of base class in a derived class.\nD.\nIt allows private members of the base class to be inherited in the derived class. ";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='b'||an=='B')
+			coun++;
+			cout<<"\n 9.\nWhat dobes the class definitions in following code represent? \nclass Bike\n{\n    Engine objEng;\n};\nclass Engine\n{\n    float CC;\n};\n\nA.\nkind of relationship\nB.\nhas a relationship\nC.\nInheritance\nD.\nBoth A and B";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='b'||an=='B')
+			coun++;
+			cout<<"\n 10. \nWhich of the folblowing statements is correct?\nA.\nData items in a class must be private.\n\nB.\nBoth data and functions can be either private or public\nC.\nMember functions of a class must be private.\nD.\nConstructor of a class cannot be private.";
+			cout<<"\n your answer:";
+			cin>>an;
+			if(an=='b'||an=='B')
+			coun++;
+			cout<<"\n total ryt answer="<<coun;
+			w=10-coun;
+			cout<<"\n wrong answer="<<w;	
+			break;
+		case 3:
+			c3=0;
+			cout<<"\n1)   Can we pass parameters to base class consatructor though derived class or derived class constructor? \n a. \nYes\nb.\n No";
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='a'||a3=='A')
+			c3++;
+			cout<<"\n \n 2)   Private members of the clabss are not inheritable. \n a. \n True\n b.\n False";
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='b'||a3=='B')
+			c3++;
+			cout<<"\n3)   In case of inheritdance where both base and derived class are having constructors, when an object of derived class is created then___________ . \n a. \nconstructor of derived class will be invoked first\nb.\n constructor of base class will be invoked first\nc.\n constructor of derived class will be executed first followed by base class\nd.\n constructor of base class will be executed first followed by derived class";			
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='d'||a3=='D')
+			c3++;
+			cout<<"\n 4)   Can struct be used as Base class for inhaeritance ? \na.\n Yes\nb.\n No";
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='A'||a3=='a')
+			c3++;
+			cout<<"\n 5)   If the deriaved class is struct, then default visibility mode is _______ . \n a.\n  public\n b.\n protected\n c. \n private\n d. \n struct can’t inherit class";
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='A'||a3=='a')
+			c3++;
+			cout<<"\n 6)   If base class has consatructor with arguments, then it is ________________ for the derived class to have constructor and pass the arguments to base class constructor. \n a.\n  Optional\n b.\n Mandatory\n c.\n Compiler dependent\n d.\n Error ";
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='A'||a3=='a')
+			c3++;
+			cout<<"\n 7) \n  In Multipath inheritance, in orcder to remove duplicate set of records in child class, we ___________ . \na.\n Write Virtual function in parent classes\nb.\n Write virtual functions is base class\nc.\n Make base class as virtual base class\nd.\n All of these ";
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='C'||a3=='c')
+			c3++;
+			cout<<"\n8)   In case of inheritance whcere both base and derived class are having constructor and destructor, then which if the following are true ?\n1. Constructors are executed in their order of derivation\n2. Constructors are executed in reverse order of derivation\n3. Destructors are executed in their order of derivation\n4. Destructors are executed in reverse order of derivation \na. Only 2 ,4\nb. Only 1 , 3\nc. Only 1 , 4\nd. Only 2, 3";
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='C'||a3=='c')
+			c3++;
+			cout<<"\n 9)   When a child class inhedrits traits from more than one parent class, this type of inheritance is called _______________ inheritance.\n a.\n Hierarchical\nb.\n Hybrid\nc.\n Multilevel\nd.\n Multiple";
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='D'||a3=='d')
+			c3++;
+			cout<<"\n10)   What is the differbence between protected and private access specifiers in inheritance? \na.\n private member is not inheritable and not accessible in derived class.\nb.\n protected member is inheritable and also accessible in derived class.\nc.\n Both are inheritable but private is accessible in the derived class.\nd.\n Both are inheritable but protected is not accessible in the derived class.";
+			cout<<"\n your answer:";
+			cin>>a3;
+			if(a3=='b'||a3=='B')
+			c3++;
+			cout<<"\n total ryt answer="<<c3;
+			w3=10-c3;
+			cout<<"\n wrong answer="<<w3;
+			break;
+		case 4:
+			c4=0;
+			cout<<"\n 1) We can ovaerload which of the following C++ operators.\nA) Arithmetic operator (+, -, *, /)\nB) Class Member Access Operators (., .*)\n C) Size operator(sizeof)\n D) Conditional operator(?:)";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='A'||a4=='a')
+			c4++;
+			cout<<"\n2) ……………… must be eibther non-static member function or friend functions.\nA) member functions\nB) Operator functions\nC) non-static functions\nD) friend functions";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='b'||a4=='B')
+			c4++;
+			cout<<"\n3) Operator overloacding is also called …………….. polymorphism.\nA) run time\nB) initial time\nC) compile time\nD) completion time";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='c'||a4=='C')
+			c4++;
+			cout<<"\n4) We can overlocad almost all the C++ operators except the following.\ni) Class member operator (.,.*)   \nii) Assignment operator (=)\niii) Scope resolution operator (::) \niv) Conditional operator (?:)\nA) i, ii and iii only\nB) ii, iii and iv only\nC) i, iii and iv only\nD) All i, ii, iii and iv";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='c'||a4=='C')
+			c4++;
+			cout<<"\n5) Which of the followibng is the correct order involves in the process of operator overloading.\ni) Define the operator function to implement the required operations. \nii) Create a class that defines the data type that is to be used in the overloading operation.\niii) Declare the operator function op() in the public part of the class. \nA) 1-i, 2-ii, 3-iii\nB) 1-ii, 2-iii, 3-i\nC) 1-ii, 2-i, 2-iii\nD) 1-iii, 2-ii, 3-i";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='b'||a4=='B')
+			c4++;
+			cout<<"\n6) State whetbher the following statements are True or False for overloading operators. \ni) Only existing operators can be overloaded. \nii) We can change the basic meaning of an operator\nA) True, True\nB) True, False\nC) False, True\nD) False, False";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='b'||a4=='B')
+			c4++;
+			cout<<"\n7) We cannbot use friend functions to overload which of the following operators.\ni) membership operator(.)    ii) Assignment operator(=)\niii) class member access operator(_>)  iv) conditional operator(?:)\nA) i and ii only\nB) ii and iii only\nC) iii and iv only\nD) i and iv only";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='b'||a4=='B')
+			c4++;
+			cout<<"\n8) …………… overloaded by means of a maember function, take no explicit arguments and \nreturn no explicit values. \nA) Unary operators\nB) Binary operators\nC) Arithmetic operators\nD) Function operator";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='a'||a4=='A')
+			c4++;
+			cout<<"\n9) ……………. overloaded thrbough a member function take one explicit argument and those which are overloaded through a friend function take two explicit arguments. \nA) Unary operators\nB) Binary operators\nC) Arithmetic operators\nD) Function operator";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='b'||a4=='B')
+			c4++;
+			cout<<"\n10) When using ………………., overlboaded through a member function, the left hand operand must be an object of the relevant class.\nA) Unary operators\nB) Binary operators\nC) Arithmetic operators\nD) Function operator";
+			cout<<"\n your answer:";
+			cin>>a4;
+			if(a4=='b'||a4=='B')
+			c4++;
+			cout<<"\n total ryt answer="<<c4;
+			w4=10-c4;
+			cout<<"\n wrong answer="<<w4;
+			break;
+		case 5:
+			c5=0;
+			cout<<"\n1)   A viratual function that has no definition within the base class is called____________. \na. Pure virtual function\nb. Pure static function\nc. Pure Const function\nd. Friend function";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='a'||a5=='A')
+			c5++;
+			cout<<"\n2)   If abstrdact class is inherited by derived class, then_______________ . \n\n\na. Derived class should provide definition for all the pure virtual functions\nb. Derived class also become abstract if fails to implement pure virtual \nfunctions\nc. Objects of derived class can’t be created if it fails to implement pure \nvirtual functions\nd. All of these";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='d'||a5=='D')
+			c5++;
+			cout<<"\n3)    If a class contdains pure virtual function, then it is termed \nas____________________ . \n\n\na. Virtual class\nb. Sealed class\nc. Pure Local class\nd. Abstract Class";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='d'||a5=='D')
+			c5++;
+			cout<<"\n4)   When a virtual function is rebdefined by the derived class, it is \ncalled___________. \n\n\na. Overloading\nb. Overriding\nc. Rewriting\nd. All of these";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='b'||a5=='B')
+			c5++;
+			cout<<"\n5)   Which of the foldlowings are true about Virtual functions? \n\n\na. They must be non-static member function of the class\nb. They cannot be friends\nc. Constructor Functions cannot be virtual\nd. All of these";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='d'||a5=='D')
+			c5++;
+			cout<<"\n6)   We can crebate objects of the abstract class. \n\n\na. True\nb. False";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='b'||a5=='B')
+			c5++;
+			cout<<"\n7)   Find the wbrong statement/s about Abstract Class. \n\n\na. We can’t create its objects.\nb. We can’t create pointers to an abstract class.\nc. It contains at least one pure virtual function.\nd. We can create references to an abstract class.";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='b'||a5=='B')
+			c5++;
+			cout<<"\n8)   Runtime paolymorphism is achieved only when a virtual function is accessed \nthrough a pointer to the base class. \n\n\na. True\nb. False";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='a'||a5=='A')
+			c5++;
+			cout<<"\n9)   Syntacx for Pure Virtual Function is ______________ . \n\n\na. virtual void show()==0\nb. void virtual show()==0\nc. virtual void show()=0\nd. void virtual show()=0";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='c'||a5=='C')
+			c5++;
+			cout<<"\n10)    _______________ is a membaer function that is declared within a base class \nand redefined by derived class. \n\na. virtual function\nb. static function\nc. friend function\nd. const member function";
+			cout<<"\n your answer:";
+			cin>>a5;
+			if(a5=='a'||a5=='A')
+			c5++;
+			cout<<"\n total ryt answer="<<c5;
+			w5=10-c5;
+			cout<<"\n wrong answer="<<w5;
+			break;
+		case 6:
+			c6=0;
+			cout<<"\n1. Which class is usaed to design the base class?\na) abstract class\nb) derived class\nc) base class\nd) none of the mentioned";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='a'||a6=='A')
+			c6++;
+			cout<<"\n2. Which is used to crbeate a pure virtual function ?\na) $\nb) =0\nc) &\nd) !";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='b'||a6=='B')
+			c6++;
+			cout<<"\n3. Which is also called as abstrbact class?\na) virtual function\nb) pure virtual function\nc) derived class\nd) none of the mentioned";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='b'||a6=='B')
+			c6++;
+			cout<<"\n4. What isd the output of this program?\n#include <iostream>\n    using namespace std;\n    class p \n    {\n        protected:\n        int width, height;\n        public:\n        void set_values (int a, int b)\n        {\n            width = a; height = b; \n        }\n        virtual int area (void) = 0;\n    };\n     class r: public p\n    {\n        public:\n        int area (void)\n        { \n            return (width * height);\n        }\n    };\n    class t: public p \n    {\n        public:\n        int area (void)\n        {\n            return (width * height / 2); \n        }\n    };\n    int main () \n    {\n        r rect;\n        t trgl;\n        p * ppoly1 = &rect;\n        p * ppoly2 = &trgl;\n        ppoly1->set_values (4, 5);\n        ppoly2->set_values (4, 5);\n        cout << ppoly1 -> area() ;\n        cout << ppoly2 -> area();\n        return 0;\n    }\na) 1020\nb) 20\nc) 10\nd) 2010";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='d'||a6=='D')
+			c6++;
+			cout<<"\n5. What isc the output of this program?\n\n\n    #include <iostream>\n    using namespace std;\n    class MyInterface \n    {\n        public:\n        virtual void Display() = 0;\n    };\n    class Class1 : public MyInterface \n    {\n        public:\n        void Display() \n        {\n            int  a = 5;\n            cout << a;\n       }\n    };\n    class Class2 : public MyInterface \n    {\n        public:\n        void Display()\n      {\n            cout <<" "5"" << endl;\n        }\n    };\n    int main()\n    {\n        Class1 obj1;\n        obj1.Display();\n        Class2 obj2;\n        obj2.Display();\n        return 0;\n    }\na) 5\nb) 10\nc) 5 5\nd) None of the mentioned";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='c'||a6=='C')
+			c6++;
+			cout<<"\n6. What is the outcput of this program?\n\n    #include <iostream>\n    using namespace std;\n    class sample\n    {\n        public:\n        virtual void example() = 0; \n    };\n    class Ex1:public sample\n    {\n        public:\n        void example()\n        {\n            cout << ""ubuntu"";\n        }\n    };\n  class Ex2:public sample\n   {\n        public:\n        void example()\n        {\n            cout << " "is awesome"";\n        }\n    };\n    int main()\n    {\n        sample* arra[2];\n        Ex1 e1;\n        Ex2 e2;\n        arra[0]=&e1;\n        arra[1]=&e2;\n        arra[0]->example();\n        arra[1]->example();\n    }\na) ubuntu\nb) is awesome\nc) ubuntu is awesome\nd) none of the mentioned";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='c'||a6=='C')
+			c6++;
+			cout<<"\n7. What is the output of thbis program?\n\n    #include <iostream>\n    using namespace std;\n    class Base\n    {\n        public:\n      virtual void print() const = 0;\n    };\n    class DerivedOne : virtual public Base\n    {\n        public:\n        void print() const\n        {\n            cout << ""1"";\n        }\n    };\n    class DerivedTwo : virtual public Base\n    {\n        public:\n        void print() const\n        {\n            cout << ""2"";\n        }\n    };\n    class Multiple : public DerivedOne, DerivedTwo\n    {\n        public:\n        void print() const\n        {\n\n            DerivedTwo::print();\n        }\n    };\n    int main()\n    {\n        Multiple both;\n        DerivedOne one;\n        DerivedTwo two;\n        Base *array[ 3 ];\n        array[ 0 ] = &both;\n        array[ 1 ] = &one;\n        array[ 2 ] = &two;\n        for ( int i = 0; i < 3; i++ )\n        array[ i ] -> print();\n        return 0;\n    }\na) 121\nb) 212\nc) 12\nd) none of the mentioned";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='b'||a6=='B')
+			c6++;
+			cout<<"\n8. What is meanat by pure virtual function?\na) Function which does not have definition of its own\nb) Function which does have definition of its own\nc) Function which does not have any return type\nd) None of the mentioned";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='a'||a6=='A')
+			c6++;
+			cout<<"\n9. Pick out the correct opation.\na) We cannot make an instance of an abstract base class\nb) We can make an instance of an abstract base classc) We can make an instance of an abstract super class\nd) None of the mentioned";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='a'||a6=='A')
+			c6++;
+			cout<<"\n10. Where does the abstract class is usaed?\na) base class only\nb) derived class\nc) both derived & base class\nd) none of the mentioned";
+			cout<<"\n your answer:";
+			cin>>a6;
+			if(a6=='a'||a6=='A')
+			c6++;
+			cout<<"\n total ryt answer="<<c6;
+			w6=10-c6;
+			cout<<"\n wrong answer="<<w6;
+			break;
+		case 7:
+			c7=0;
+			cout<<"\n1. C++ provibdes a special ………………… called the constructor, which enables an \nobject to initialize itself when it is created.\nA) friend function\nB) member function\nC) public function\nD) private function";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='b'||a7=='B')
+			c7++;
+			cout<<"\n2.  A construcdtor has the same …………….. as that of class.\nA) variable\nB) object\nC) function\nD) name";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='d'||a7=='D')
+			c7++;
+			cout<<"\n3. Constructors are normaclly used to …………….. and to allocate memory.\nA) define variables\nB) allocate variables\nC) initialize variables\nD) initialize object";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='c'||a7=='C')
+			c7++;
+			cout<<"\n4. A constructor  that acceapts no parameters is called the …………….\nA) default constructor\nB) parameterized constructor\nC) implicit constructor\nD) null constructor";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='a'||a7=='A')
+			c7++;
+			cout<<"\n5. Constructors cannaot be inherited, through a derived class can call the \n………………. constructor.\nA) base class\nB) derived class\nC) void class\n\nD) default class";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='a'||a7=='A')
+			c7++;
+			cout<<"\n6. State whether the fcollowing statements about  the constructor are True or \nFalse.\ni) constructors should be declared in the private section.\nii) constructors are invoked automatically when the objects are created.\nA) True, True\nB) True, False\nC) False, True\nD) False, False";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='c'||a7=='C')
+			c7++;
+			cout<<"\n7. The constructors thabt can take arguments are called …………… constructors\n\nA) default constructor\nB) parameterized constructor\nC) implicit constructor\nD) argument constructor";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='b'||a7=='B')
+			c7++;
+			cout<<"\n8. When an object is createdd and initialized at the same time, a ………………. gets \ncalled.\nA) default constructor\nB) parameterized constructor\nC) implicit constructor\nD) copy constructor";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='d'||a7=='D')
+			c7++;
+			cout<<"\n9. In C++, ……………………. crecates objects, even through it was not defined in the \nclass.\nA) default constructor\nB) parameterized constructor\nC) implicit constructor\nD) copy constructor";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='c'||a7=='C')
+			c7++;
+			cout<<"\n10. …………….. construcctor will not do anything and defined just to satisfy the \ncompiler\nA) default \nB) parameterized \nC) implicit \nD) copy";
+			cout<<"\n your answer:";
+			cin>>a7;
+			if(a7=='c'||a7=='C')
+			c7++;
+			cout<<"\n total ryt answer="<<c7;
+			w7=10-c7;
+			cout<<"\n wrong answer="<<w7;
+			break;
+		case 8:
+			c8=0;
+			cout<<"\n1. Which stream claass is to only write on files ?\nofstream\nifstream\nfstream\niostream";
+			cout<<"\n your answer:";
+			cin>>a8;
+			if(a8=='a'||a8=='A')
+			c8++;
+			cout<<"2. Whichb stream class is to only read from files ?\nofstream\nifstream\nfstream\niostream";
+			cout<<"\n your answer:";
+			cin>>a8;
+			if(a8=='b'||a8=='B')
+			c8++;
+			cout<<"\n3. Which stream cclass is used to both read and write on files ?\nofstream\nifstream\nfstream\niostream";
+			cout<<"\n your answer:";
+			cin>>a8;
+			if(a8=='c'||a8=='C')
+			c8++;
+			cout<<"\n4. Which among following is usedd to open a file in binary mode ?\nios:app\nios::out\nios::in\nios::binary";
+			cout<<"\n your answer:";
+			cin>>a8;
+			if(a8=='d'||a8=='D')
+			c8++;
+			cout<<"\n5. ios::trunc is bused for ?\nIf the file is opened for output operations and it already existed, no action is \ntaken.\nIf the file is opened for output operations and it already existed, its previous \ncontent is deleted and replaced by the new one.\nIf the file is opened for output operations and it already existed, then a new \ncopy is created.\nNone of above";
+			cout<<"\n your answer:";
+			cin>>a8;
+			if(a8=='b'||a8=='B')
+			c8++;
+			cout<<"\n6. Which is correctb syntax ?\nmyfile:open (""example.bin"", ios::out);\nmyfile.open (""example.bin"", ios::out);\nmyfile::open (""example.bin"", ios::out);\nmyfile.open (""example.bin"", ios:out);\n Answer And Explanation";
+			cout<<"\n your answer:";
+			cin>>a8;
+			if(a8=='b'||a8=='B')
+			c8++;
+			cout<<"\n7. Which among dfollowing is correct syntax of closing a file in c++ ?\nmyfile$close();\nmyfile@close();\nmyfile:close();\nmyfile.close();";
+			cout<<"\n your answer:";
+			cin>>a8;
+			if(a8=='d'||a8=='D')
+			c8++;
+			cout<<"\n8. What is ucse of eof() ?\nReturns true if a file open for reading has reached the next character.\nReturns true if a file open for reading has reached the next word.\nReturns true if a file open for reading has reached the end.\nReturns true if a file open for reading has reached the middle.";
+			cout<<"\n your answer:";
+			cin>>a8;
+			if(a8=='c'||a8=='C')
+			c8++;
+			cout<<"\n9. Which functions allow to change the location of the get and put positions ?\nsg() and sp()\nsekg() and sekp()\ngog() and gop()\nseekg() and seekp()";
+			cout<<"\n your ansdwer:";
+			cin>>a8;
+			if(a8=='d'||a8=='D')
+			c8++;
+			cout<<"\n10. offset cocunted from the current position using ?\nios::curr\nios::cr\nios::cur\nios::current";
+			cout<<"\n your answer:";
+			cin>>a8;
+			if(a8=='c'||a8=='C')
+			c8++;
+			cout<<"\n total ryt answer="<<c8;
+			w8=10-c8;
+			cout<<"\n wrong answer="<<w8;
+			break;
+		case 9:
+			c9=0;
+			cout<<"\n1.	Which amongd the following best describes encapsulation?\na)	It is a way of combining various data members into a single unit\nb)	It is a way of combining various member functions into a single unit\nc)	It is a way of combining various data members and member functions into a \nsingle unit which can operate on any data\nd)	It is a way of combining various data members and member functions that \noperate on those data members into a single unit";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='d'||a9=='D')
+			c9++;
+			cout<<"\n2.	If daata members are private, what can we do to access them from the class \nobject?\na)	Create public member functions to access those data members\nb)	Create private member functions to access those data members\nc)	Create protected member functions to access those data members\nd)	Private data members can never be accessed from outside the class";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='a'||a9=='A')
+			c9++;
+			cout<<"\n3.	While using encapsulation, whichb among the following is possible?\na)	Code modification can be additional overhead\nb)	Data member’s data type can be changed without changing any other code\nc)	Data member’s type can’t be changed, or whole code have to be changed\nd)	Member functions can be used to change the data type of data members";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='b'||a9=='B')
+			c9++;
+			cout<<"\n4.	Which featbure can be implemented using encapsulation?\na)	Inheritance\nb)	Abstraction\nc)	Polymorphism\nd)	Overloading";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='b'||a9=='B')
+			c9++;
+			cout<<"\n5.	Find which of the following uses encccapsulation?\na)	void main(){ int a; void fun( int a=10; cout<<a); fun(); }\nb)	class student{ int a; public: int b;};\nc)	class student{int a; public: void disp(){ cout<<a;} };\nd)	struct topper{ char name[10]; public : int marks; }";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='c'||a9=='C')
+			c9++;
+			cout<<"\n6.	Encapsulation helpd in writing ___________ classes in java\na)	Mutable\nb)	Abstract\nc)	Wrapper\nd)	Immutable";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='d'||a9=='D')
+			c9++;
+			cout<<"\n7.	Which among the following ashould be encapsulated?\na)	The data which is prone to change is near future\nb)	The data prone to change in long terms\nc)	The data which is intended to be changed\nd)	The data which belongs to some other class";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='a'||a9=='A')
+			c9++;
+			cout<<"\n8.	How can Encapsulationa be achieved?\na)	Using Access Specifiers\nb)	Using only private members\nc)	Using inheritance\nd)	Using Abstraction";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='a'||a9=='A')
+			c9++;
+			cout<<"\n9.	Which among the follbowing violates the principle of encapsulation almost \nalways?\na)	Local variables\nb)	Global variables\nc)	Public variables\nd)	Array variables";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='b'||a9=='B')
+			c9++;
+			cout<<"\n10.	Which aamong the following would destroy the encapsulation mechanism if it \nwas allowed in programming?\na)	Using access declaration for private members of base class\nb)	Using access declaration for public members of base class\nc)	Using access declaration for local variable of main() function\nd)	Using access declaration for global variables";
+			cout<<"\n your answer:";
+			cin>>a9;
+			if(a9=='a'||a9=='A')
+			c9++;
+			cout<<"\n total ryt answer="<<c9;
+			w9=10-c9;
+			cout<<"\n wrong answer="<<w9;
+			break;
+		case 10:
+			c10=0;
+			cout<<"\n1. 	\nWhicch of the following type of class allows only one object of it to be created?\n\nA.	Virtual class\nB.	Abstract class\nC.	Singleton class\nD.	Friend class";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='c'||a10=='C')
+			c10++;
+			cout<<"\n2. 	\nWhich of the bfollowing is not a type of constructor?\n\nA.	Copy constructor\nB.	Friend constructor\nC.	Default constructor\nD.	Parameterized constructor";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='b'||a10=='B')
+			c10++;
+			cout<<"\n3. 	\nWhich of the following statements is correctb?\n\nA.	Base class pointer cannot point to derived class.\nB.	Derived class pointer cannot point to base class.\nC.	Pointer to derived class cannot be created.\nD.	Pointer to base class cannot be created.";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='b'||a10=='B')
+			c10++;
+			cout<<"\n4. 	\nWhich of the following is bot the member of class?\n\nA.	Static function\nB.	Friend function\nC.	Const function\nD.	Virtual function";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='b'||a10=='B')
+			c10++;
+			cout<<"\n5. 	\nWhich of the following cconcepts means determining at runtime what method to \ninvoke?\n\nA.	Data hiding\nB.	Dynamic Typing\nC.	Dynamic binding\nD.	Dynamic loading";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='c'||a10=='C')
+			c10++;
+			cout<<"\n6. 	\nWhich of the following term isb used for a function defined inside a class?\n\nA.	Member Variable\nB.	Member function\nC.	Class function\nD.	Classic function";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='b'||a10=='B')
+			c10++;
+			cout<<"\n7. 	\nWhich of the following cconcept of oops allows compiler to insert arguments in a \nfunction call if it is not specified?\n\nA.	Call by value\nB.	Call by reference\nC.	Default arguments\nD.	Call by pointer";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='c'||a10=='C')
+			c10++;
+			cout<<"\n8. 	\nHow many instances of an abdstract class can be created?\nA.	1\nB.	5\nC.	13\nD.	0";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='d'||a10=='D')
+			c10++;
+			cout<<"\n9. 	\nWhicch of the following cannot be friend?\n\nA.	Function\nB.	Class\nC.	Object\nD.	Operator function";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='c'||a10=='C')
+			c10++;
+			cout<<"\n10. 	\nWhicch of the following concepts of OOPS means exposing only necessary \ninformation to client?\n\nA.	Encapsulation\nB.	Abstraction\nC.	Data hiding\nD.	Data binding";
+			cout<<"\n your answer:";
+			cin>>a10;
+			if(a10=='c'||a10=='C')
+			c10++;
+			cout<<"\n total ryt answer="<<c10;
+			w10=10-c10;
+			cout<<"\n wrong answer="<<w10;
+			break;
+		default:
+			cout<<"\n no such choice";
+			break;
+	}
+}
+main()
+{
+	test ob;
+	int y;
+	do
+	{
+		ob.mod();
+		cout<<"\n press 0 if you want to do choose again";
+		cin>>y;
+	}while(y==0);
+}
